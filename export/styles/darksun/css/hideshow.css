@@ -36,7 +36,8 @@
     }
 
 .ellipsis {
-    color: #999999;
+    /* this is for triangle of all expandable headline */
+    color: #099999;
     /* background-color: #FFF8C0; */
     /* float: right; */
     margin-left: 0.6em;
