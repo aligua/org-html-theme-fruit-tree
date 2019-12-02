@@ -17,16 +17,15 @@
 /* Version: 20140912.1722 */
 
 .hsExpanded.hsAnchor {background: #EE7700;}
-
 .buttons {
-    padding: 0px 7px 13px 0px;
+    padding: 5px 24px 2px 0px;
     background: #0A3F69;
 }
 
 .hsButton {
-    color: white;
+    color: #028b52;
     float: right;
-    font-size: 70%;
+    font-size: 75%;
     margin-left: 10px;
 }
 

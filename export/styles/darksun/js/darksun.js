@@ -45,7 +45,9 @@ $(function() {
 
 // generate contents of minitoc
 function generateMiniToc(divId) {
-    $('#minitoc-content').empty().append('<h2>In this section</h2><ul></ul>');
+   // $('#minitoc-content').empty().append('<h2>In this section</h2><ul></ul>');
+    // $('#minitoc-content').empty().append('<h2>&nbsp</h2><ul></ul>');
+    $('#minitoc-content').empty().append('<span style="color:#13679D;font-size:5px;">&nbsp</span><ul></ul>');
     $('#' + divId).find('h3').each(function(i) {
         // [2018-09-03 Mon 03:48] Get text up to non-breaking space,
         // to omit the tags.  If there are no tags, there will be no

@@ -38,10 +38,13 @@ img {
     margin: 0.5em;
 }
 .buttons {
-    background-color: #073642 !important;
+    /*
+     * a area of show Expand/Collapse in minitoc
+     */
+    background-color: #0A3F6C !important;
     color: #93a1a1 !important;
     font-family: sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .hsReviewPanel {
     display: none;
@@ -219,13 +222,14 @@ a:hover {
     text-decoration: underline;
 }
 #minitoc {
-    background-color: #073642 !important;
+    /* in this section */
+    background-color: #0A3F6C !important;
     position: fixed;
-    top: 0px;
-    right: -5px;
-    padding: 0.5em;
+    top: 8px;
+    right: 9px;
+    padding: 0px;
     z-index: 200;
-    width: 18%;
+    width: 8%;
     word-wrap: normal;
     overflow: hidden;
 }
