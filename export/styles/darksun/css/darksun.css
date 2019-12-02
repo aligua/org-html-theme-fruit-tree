@@ -29,7 +29,7 @@ pre {
     border: 1px solid #9ec49f !important;
     border-radius: 2px;
     box-shadow: none;
-    color: #839496 !important;
+    color: #060606 !important;
 }
 code {
     font-size: 1.2em;
@@ -59,7 +59,7 @@ img {
     text-align: center;
 }
 #tabs {
-    background-color: #073642 !important;
+    background-color: #D0FADE !important;
     float: left;
     margin: 0px 0px 20px 0px;
     padding: 0;
@@ -109,7 +109,7 @@ img {
     text-align: right;
 }
 blockquote {
-    background-color: #073642 !important;
+    background-color: #D0FADE !important;
     padding-left: 0.75em;
     padding-right: 0.75em;
     padding-top: 0.01em;
