@@ -133,16 +133,61 @@ blockquote {
 .outline-6 {
     padding-left: 4%;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: sans-serif;
-    border-bottom: 2px solid;
-    border-color: #094352 !important;
+
+
+h1, ul#tabs, h2, h3, h4, h5 {
+    font-family: "Trebuchet MS",Verdana,sans-serif;
 }
+
+h1 {
+    background-color: #0A3F69;
+    color: #F8F8F8;
+    font-size: 30px;
+    margin: 0;
+    padding: 9px 25px 9px 0px;
+}
+
+h2 {
+    /*
+     * border-bottom: 4px solid #67B3E3;
+     */
+    color: #13679D;
+    font-size: 20px;
+}
+
+h3, h4, h5, h6 {
+    color: #1572AE;
+}
+
+h3 {
+    border-bottom: 1px solid #B5DAF1;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+h4 {
+    border-bottom: 1px dotted #C9E3F5;
+    color: #228b22;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+h5 {
+    font-size: 15px;
+    color: #1066cc;
+    /*
+     * font-size: 1em;
+     */
+    margin-left: 10px;
+}
+
+h6 {
+    color: #318495;
+    font-size: 1em;
+    margin-left: 15px;
+}
+
+
 a:hover {
     text-decoration: underline;
 }
