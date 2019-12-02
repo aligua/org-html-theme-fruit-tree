@@ -89,9 +89,12 @@ img {
     background-color: #094352 !important;
     color: #59a9e1 !important;
 }
+
 #content {
     clear: both;
-    width: 80%;
+
+    /* width of main part of page */
+    width: 100%;
 }
 #content > p {
     margin: 1em;
