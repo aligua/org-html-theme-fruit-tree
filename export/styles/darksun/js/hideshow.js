@@ -23,10 +23,12 @@ if (typeof HS_STARTUP_FOLDED === 'undefined') {
 }
 
 if (typeof HS_SHOW_ALL_TEXT === 'undefined') {
-    var HS_SHOW_ALL_TEXT = 'Expand';
+    // var HS_SHOW_ALL_TEXT = 'Expand';
+    var HS_SHOW_ALL_TEXT = '平铺';
 }
 if (typeof HS_HIDE_ALL_TEXT === 'undefined') {
-    var HS_HIDE_ALL_TEXT = 'Collapse';
+    // var HS_HIDE_ALL_TEXT = 'Collapse';
+    var HS_HIDE_ALL_TEXT = '折叠';
 }
 
 if (typeof HS_ALWAYS_DISPLAY_ICON === 'undefined') {
