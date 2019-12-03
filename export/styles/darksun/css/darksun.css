@@ -139,7 +139,8 @@ blockquote {
 
 
 h1, ul#tabs, h2, h3, h4, h5 {
-    font-family: "Trebuchet MS",Verdana,sans-serif;
+    /* font-family: "Trebuchet MS",Verdana,sans-serif; */
+    font-family: "文泉驿微米黑", "SimSun" , "STXihei", "Times New Roman", "Trebuchet MS", Verdana,sans-serif;
 }
 
 h1 {
@@ -151,9 +152,7 @@ h1 {
 }
 
 h2 {
-    /*
-     * border-bottom: 4px solid #67B3E3;
-     */
+    /* border-bottom: 4px solid #67B3E3; */
     color: #13679D;
     font-size: 20px;
 }
@@ -168,7 +167,8 @@ h3 {
 
 h4 {
     border-bottom: 1px dotted #C9E3F5;
-    color: #228b22;
+    /* color: #228b22 #1c781c; */
+    color: #18701c;
     font-size: 18px;
     margin-left: 5px;
     padding: 2px 0px 0px 0px;
