@@ -7,15 +7,16 @@ a {
     text-decoration: none;
 }
 a:visited {
-    color: #6c71c4 !important;
+    /* color: #6c71c4 !important; */
+    color: #b4b4b4 !important;
 }
 body {
-    background-color: white !important;
+    background-color: #fafafa !important;
     color: #839496 !important;
     font-family: Libre Baskerville, serif;
 }
 html {
-    background-color: white !important;
+    background-color: #fafafa !important;
 }
 input,
 textarea {
@@ -158,17 +159,20 @@ h2 {
 }
 
 h3 {
-    color: #1572AE;
-    border-bottom: 1px solid #B5DAF1;
+    color: #064d87;
+    /* border-bottom: 1px solid #B5DAF1; */
+    border-bottom: 2px solid #F0F4F8;
     font-size: 22px;
     margin-left: 0px;
-    padding: 30px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 h4 {
-    border-bottom: 1px dotted #C9E3F5;
+    /* border-bottom: 1px dotted #C9E3F5; */
     /* color: #228b22 #1c781c; */
-    color: #18701c;
+    /* color: #18701c; */
+    color: #0f52ba;
+
     font-size: 18px;
     margin-left: 5px;
     padding: 2px 0px 0px 0px;
@@ -176,7 +180,9 @@ h4 {
 
 h5 {
     font-size: 16px;
-    color: #1066cc;
+    /* color: #1066cc; */
+    color: #1572AE;
+
     /*
      * font-size: 1em;
      */
