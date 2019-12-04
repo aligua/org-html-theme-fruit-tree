@@ -22,13 +22,26 @@ if (typeof HS_STARTUP_FOLDED === 'undefined') {
     var HS_STARTUP_FOLDED = false;      // Show just the overview, or show all.
 }
 
+var APP_TYPE = navigator.appName;
+if (APP_TYPE == "Netscape"){
+    var lang = navigator.language;//support non IE browser
+}else{
+    var lang = navigator.userLanguage;//support IE5+ == navigator.systemLanguage
+};
+var lang = lang.substr(0, 2);
 if (typeof HS_SHOW_ALL_TEXT === 'undefined') {
-    // var HS_SHOW_ALL_TEXT = 'Expand';
-    var HS_SHOW_ALL_TEXT = '平铺';
+    if (lang == "zh"){
+	var HS_SHOW_ALL_TEXT = '展开';
+    }else{
+	var HS_SHOW_ALL_TEXT = 'Expand';
+    };
 }
 if (typeof HS_HIDE_ALL_TEXT === 'undefined') {
-    // var HS_HIDE_ALL_TEXT = 'Collapse';
-    var HS_HIDE_ALL_TEXT = '折叠';
+    if (lang == "zh"){
+	var HS_HIDE_ALL_TEXT = '折叠';
+    }else{
+	var HS_HIDE_ALL_TEXT = 'Collapse';
+    };
 }
 
 if (typeof HS_ALWAYS_DISPLAY_ICON === 'undefined') {
