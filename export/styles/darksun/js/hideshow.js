@@ -44,6 +44,13 @@ if (typeof HS_HIDE_ALL_TEXT === 'undefined') {
     };
 }
 
+if (lang == "zh"){
+	var HS_SWITCH_ALL_BUTTON_TEXT = '展开/折叠';
+    }else{
+	var HS_SWITCH_ALL_BUTTON_TEXT = 'expand/collapse';
+    };
+
+
 if (typeof HS_ALWAYS_DISPLAY_ICON === 'undefined') {
     var HS_ALWAYS_DISPLAY_ICON = false; // Display an icon for all states, or
                                         // just when closed.
@@ -67,6 +74,9 @@ if (typeof HS_CLASS === 'undefined') {
     var HS_CLASS = 'hsCollapsible';
 }
 
+// when any headline got expanded then this var need to be true
+var hsExpandState = false;
+
 // Expand a header
 function hsExpand(header) {
     hsExpand2(header, true);
@@ -86,6 +96,7 @@ function hsExpand2(header, expandDoneHeader) {
     }
     header.parent().removeClass('hsCollapsed').addClass('hsExpanded');
     header.nextAll().show();
+    hsExpandState = true;
 }
 
 // Expand a header and all its parents
@@ -136,8 +147,22 @@ function hsCollapseAll() {
     $('#content .hsExpanded').each(function() {
         hsCollapse($(this).children(':header'));
     });
+    hsExpandState = false;
 }
 
+function hsSwitchAll() {
+    if (hsExpandState == true)
+	hsCollapseAll();
+    else
+	hsExpandAll();
+}
+
+$(document).keydown(function(e){
+    if (e.which >= 65 &&
+	e.which <= 90 ){
+	hsSwitchAll();
+    }
+});
 // Collapse all visible headers
 function hsCollapseAllVisible() {
     $('#content .hsExpanded:visible').each(function() {
@@ -179,12 +204,15 @@ function hsInit() {
     // Add div to hold minitoc content (so it can be cleared without deleting the buttons)
     // Add buttons
     $('#minitoc').append($('<div class="buttons dontprint"></div>'));
-    $('.buttons').append($('<span>' + HS_SHOW_ALL_TEXT + '</span>')
+    // $('.buttons').append($('<span>' + HS_SHOW_ALL_TEXT + '</span>')
+    //              .addClass('hsButton')
+    //              .click(hsExpandAll));
+    // $('.buttons').append($('<span>' + HS_HIDE_ALL_TEXT + '</span>')
+    //              .addClass('hsButton')
+    //              .click(hsCollapseAll))
+    $('.buttons').append($('<span>' + HS_SWITCH_ALL_BUTTON_TEXT + '</span>')
                  .addClass('hsButton')
-                 .click(hsExpandAll));
-    $('.buttons').append($('<span>' + HS_HIDE_ALL_TEXT + '</span>')
-                 .addClass('hsButton')
-                 .click(hsCollapseAll))
+                 .click(hsSwitchAll))
     $('#minitoc').append($('<div id="minitoc-content"></div>'));
 
 ;
