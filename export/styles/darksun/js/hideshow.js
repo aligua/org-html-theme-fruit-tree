@@ -157,12 +157,28 @@ function hsSwitchAll() {
 	hsExpandAll();
 }
 
-$(document).keydown(function(e){
-    if (e.which >= 65 &&
-	e.which <= 90 ){
+
+document.onkeypress = function (e) {
+    e = e || window.event;
+    // prompt(e.keyCode)
+    if ((e.keyCode >= 65 &&
+	 e.keyCode <= 90 ) ||
+	(e.keyCode >= 97 &&
+	 e.keyCode <= 122 ))
+    {
 	hsSwitchAll();
     }
-});
+};
+
+// keydown is not proper since it will get same which even with ctrl key pressed so ctrl+c would trigger switching
+// $(document).keydown(function(e){
+//     if (e.which >= 65 &&
+// 	e.which <= 90 ){
+// 	hsSwitchAll();
+//     }
+// });
+
+
 // Collapse all visible headers
 function hsCollapseAllVisible() {
     $('#content .hsExpanded:visible').each(function() {
