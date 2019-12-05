@@ -118,24 +118,26 @@ blockquote {
     overflow: hidden;
     margin-left: 0;
 }
+
+
 .outline-text-2,
 .outline-text-3,
 .outline-text-4,
 .outline-text-5,
 .outline-text-6 {
-    padding-left: 4%;
+    padding-left: 3%;
 }
 .outline-3 {
-    padding-left: 4%;
+    padding-left: 1%;
 }
 .outline-4 {
-    padding-left: 4%;
+    padding-left: 3%;
 }
 .outline-5 {
-    padding-left: 4%;
+    padding-left: 3%;
 }
 .outline-6 {
-    padding-left: 4%;
+    padding-left: 3%;
 }
 
 
