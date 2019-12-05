@@ -45,9 +45,9 @@ if (typeof HS_HIDE_ALL_TEXT === 'undefined') {
 }
 
 if (lang == "zh"){
-	var HS_SWITCH_ALL_BUTTON_TEXT = '展开/折叠';
+	var HS_SWITCH_ALL_BUTTON_TEXT = '字母键可折叠';
     }else{
-	var HS_SWITCH_ALL_BUTTON_TEXT = 'expand/collapse';
+	var HS_SWITCH_ALL_BUTTON_TEXT = 'press keys to collapse';
     };
 
 
