@@ -12,8 +12,9 @@ a:visited {
 }
 body {
     background-color: #fafafa !important;
-    color: #839496 !important;
+    color: #060606 !important;
     font-family: Libre Baskerville, serif;
+    font-size: 16px;
 }
 html {
     background-color: #fafafa !important;
@@ -30,6 +31,7 @@ pre {
     border: 1px solid #9ec49f !important;
     border-radius: 2px;
     box-shadow: none;
+    font-size: 16px;
     color: #060606 !important;
 }
 code {
@@ -162,16 +164,19 @@ h2 {
 
 h3 {
     color: #064d87;
-    border-bottom: 2px solid #B5DAF1;
-    /* border-bottom: 2px solid #F0F4F8; */
-
     /* https://www.sitepoint.com/community/t/underline-h1-tag/7012
      * border-bottom but that will inherit the width of the parent div. Is there a way to do this so the line will adjust to the width of the <h1> text? */
-    display: inline-block;
+    display: inline-block;  /* when "box-sizing:border-box"  this inline-block need to put before border-bottom or box-shadow */
+    box-sizing:border-box;
+    border-bottom: 3px solid #B5DAF1;
+    /* box-shadow: 0 2px 0 #B5DAF1; */
 
     font-size: 22px;
     margin-left: 0px;
-    padding: 20px 0px 0px 0px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: 20px 0px 18px 0px;
+    height: 53px;
 }
 
 h4 {
@@ -180,24 +185,27 @@ h4 {
     /* color: #228b22 #1c781c; */
     /* color: #18701c; */
     color: #0f52ba;
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 5px;
+    height: 13px;
 }
 
 h5 {
-    font-size: 16px;
+    font-size: 18px;
     /* color: #1066cc; */
     color: #1572AE;
 
     /* font-size: 1em; */
     margin-left: 10px;
+    height: 9px;
 }
 
 h6 {
     color: #318495;
-    font-size: 14px;
+    font-size: 16px;
     /* font-size: 1em; */
     margin-left: 15px;
+    height: 9px;
 }
 
 
