@@ -52,7 +52,11 @@ if (lang == "zh"){
 
 
 if (typeof HS_ALWAYS_DISPLAY_ICON === 'undefined') {
-    var HS_ALWAYS_DISPLAY_ICON = false; // Display an icon for all states, or
+    var HS_ALWAYS_DISPLAY_ICON = close; // Display an icon for all states, or
+                                        // just when closed.
+}
+if (typeof HS_ALWAYS_DISPLAY_ICON_COLORS === 'undefined') {
+    var HS_ALWAYS_DISPLAY_ICON_COLORS = true; // Display an icon for all states, or
                                         // just when closed.
 }
 
@@ -94,6 +98,10 @@ function hsExpand2(header, expandDoneHeader) {
     if (HS_ALWAYS_DISPLAY_ICON == true) {
         header.append('<span class="ellipsis"> ' + HS_ICON_OPEN + '</span>');
     }
+    if (HS_ALWAYS_DISPLAY_ICON_COLORS == true) {
+	header.append('<span class="ellipsis_open"> ' + HS_ICON_CLOSED + '</span>');
+    }
+
     header.parent().removeClass('hsCollapsed').addClass('hsExpanded');
     header.nextAll().show();
     hsExpandState = true;
@@ -123,6 +131,9 @@ function hsCollapse(header) {
     header.children('span[class="ellipsis"]').remove();
     header.append('<span class="ellipsis"> ' + HS_ICON_CLOSED + '</span>');
     header.parent().removeClass('hsExpanded').addClass('hsCollapsed');
+    if (HS_ALWAYS_DISPLAY_ICON_COLORS == true) {
+	header.children('span[class="ellipsis_open"]').remove();
+    }
     // header.nextAll().hide('fast');
     header.nextAll().hide();
 }
