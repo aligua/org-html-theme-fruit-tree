@@ -18,7 +18,7 @@
 
 .hsExpanded.hsAnchor {background: #EE7700;}
 .buttons {
-    padding: 5px 24px 2px 0px;
+    padding: 5px 0px 2px 0px;
     /* background: #0A3F69; */
 }
 
@@ -26,7 +26,7 @@
     color: #028b52;
     float: right;
     font-size: 65%;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
     .hsButton:hover {
