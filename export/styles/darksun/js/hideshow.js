@@ -45,9 +45,9 @@ if (typeof HS_HIDE_ALL_TEXT === 'undefined') {
 }
 
 if (lang == "zh"){
-	var HS_SWITCH_ALL_BUTTON_TEXT = '字母键可折叠';
+	var HS_SWITCH_ALL_BUTTON_TEXT = '按x可全部<br>折叠/展开';
     }else{
-	var HS_SWITCH_ALL_BUTTON_TEXT = 'press keys to collapse';
+	var HS_SWITCH_ALL_BUTTON_TEXT = 'press x to collapse';
     };
 
 
@@ -161,10 +161,11 @@ function hsSwitchAll() {
 document.onkeypress = function (e) {
     e = e || window.event;
     // prompt(e.keyCode)
-    if ((e.keyCode >= 65 &&
-	 e.keyCode <= 90 ) ||
-	(e.keyCode >= 97 &&
-	 e.keyCode <= 122 ))
+    // if ((e.keyCode >= 65 &&
+    // 	 e.keyCode <= 90 ) ||
+    // 	(e.keyCode >= 97 &&
+    // 	 e.keyCode <= 122 ))
+    if (e.keyCode == 120)
     {
 	hsSwitchAll();
     }
