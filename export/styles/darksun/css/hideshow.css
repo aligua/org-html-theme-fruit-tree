@@ -36,7 +36,18 @@
 
 .ellipsis {
     /* this is for triangle of all expandable headline */
+    /* color: #3f704d; */
+    /* color: #043927; */
+    color: #064d87;
+    /* background-color: #FFF8C0; */
+    /* float: right; */
+    margin-left: 0.6em;
+}
+
+.ellipsis_open {
+    /* this is for triangle of all expandable headline */
     color: #099999;
+    /* color: #964000; dark orange*/
     /* background-color: #FFF8C0; */
     /* float: right; */
     margin-left: 0.6em;
