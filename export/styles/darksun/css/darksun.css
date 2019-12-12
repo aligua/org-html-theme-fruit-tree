@@ -40,6 +40,9 @@ code {
 img {
     margin: 0.5em;
 }
+
+.figure p {text-align: left;margin-bottom:0px; margin-top:0px; padding: 0px 0px 0px 0px;}
+
 .buttons {
     /*
      * a area of show Expand/Collapse in minitoc
