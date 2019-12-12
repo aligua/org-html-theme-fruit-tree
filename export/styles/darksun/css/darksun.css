@@ -184,6 +184,15 @@ h3 {
      * height: 50px; */
 }
 
+h4:before {
+    /* content: "\25cf "; */
+    /* content: "\2b25  "; */
+    /* content: "\25cb  "; */
+    content: "\2B24  ";
+    /* content: "\23fa  "; */
+    /* color:blue */
+    /* margin-right: 6px; */
+}
 h4 {
     /* border-bottom: 2px dotted #C9E3F5;
      * display: inline-block; */
