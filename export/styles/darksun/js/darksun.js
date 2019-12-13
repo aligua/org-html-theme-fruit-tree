@@ -218,7 +218,8 @@ $(document).ready(function() {
     var bbPathToZeroClipboardSwf = bbScriptPath.replace('darksun.js', 'ZeroClipboard.swf');
 
     // Add copy to clipboard snippets
-    $('.org-src-container').prepend('<div class="snippet-copy-to-clipboard"><span class="copy-to-clipboard-button">[copy]</span></div>');
+    // <aligua> remove this line as I saw this button disappear when I was moving mouse to it
+    // $('.org-src-container').prepend('<div class="snippet-copy-to-clipboard"><span class="copy-to-clipboard-button">[copy]</span></div>');
 
     // Display/hide snippets on source block mouseenter/mouseleave
     $(document).on('mouseenter', '.org-src-container', function () {
