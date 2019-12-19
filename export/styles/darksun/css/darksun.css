@@ -180,7 +180,7 @@ h3 {
     font-size: 22px;
 
     box-sizing:border-box;
-    border-bottom: 3px solid #B5DAF1;
+    /* border-bottom: 3px solid #B5DAF1; */
     margin-left: 0px;
     margin-top: 36px;
     margin-bottom: 0px;
@@ -196,10 +196,11 @@ h3 {
 
 h4:before {
     /* content: "\25cf "; */
+    content: "\1f518  ";
     /* content: "\2b25  "; */
     /* content: "\25cb  "; */
-    content: "\2B24  ";
-    /* content: "\23fa  "; */
+    /* content: "\2B24  "; */
+
     /* color:blue */
     /* margin-right: 6px; */
 }
