@@ -1,0 +1,15 @@
+# -*- mode: org; -*-
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="export/styles/ft/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="export/styles/ft/css/ft.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="export/styles/ft/css/hideshow.css"/>
+
+#+HTML_HEAD: <script type="text/javascript" src="export/styles/ft/js/jquery-1.11.0.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="export/styles/ft/js/jquery-ui-1.10.2.min.js"></script>
+
+#+HTML_HEAD: <script type="text/javascript" src="export/styles/ft/js/jquery.localscroll-min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="export/styles/ft/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="export/styles/ft/js/jquery.zclip.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="export/styles/ft/js/ft.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="export/styles/ft/js/hideshow.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="export/styles/lib/js/jquery.stickytableheaders.min.js"></script>
