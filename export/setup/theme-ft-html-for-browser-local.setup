@@ -2,6 +2,7 @@
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="export/styles/ft/css/htmlize.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="export/styles/ft/css/ft.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="export/styles/ft/css/ft-for-browser.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="export/styles/ft/css/hideshow.css"/>
 
 #+HTML_HEAD: <script type="text/javascript" src="export/styles/ft/js/jquery-1.11.0.min.js"></script>
