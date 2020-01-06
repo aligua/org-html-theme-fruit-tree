@@ -223,6 +223,35 @@ h6 {
     height: 9px;
 }
 
+h7 {
+    color: #228b22;
+    font-size: 14px;
+    /* font-size: 1em; */
+    margin-left: 20px;
+    height: 9px;
+}
+h8 {
+    color: #3399ff;
+    font-size: 14px;
+    /* font-size: 1em; */
+    margin-left: 25px;
+    height: 9px;
+}
+h9 {
+    color: #808040;
+    font-size: 14px;
+    /* font-size: 1em; */
+    margin-left: 30px;
+    height: 9px;
+}
+h10 {
+    color: #808040;
+    font-size: 14px;
+    /* font-size: 1em; */
+    margin-left: 35px;
+    height: 9px;
+}
+
 
 a:hover {
     text-decoration: underline;
