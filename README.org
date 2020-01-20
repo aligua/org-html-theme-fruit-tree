@@ -1,7 +1,6 @@
 #+TITLE: org-html-theme-fruit-tree
 #+PROPERTY: LOGGING nil
 
-#+HTML: <a href=https://alphapapa.github.io/dont-tread-on-emacs/><img src="images/dont-tread-on-emacs-150.png" align="right"></a>
 * this repo is mostly for my own usage for now (unless you know chinese as I add some chinese prompt inside), I want more colorful theme so I fork darksun theme and learn basic html+css(from w3school) to cutomize it.
 * Credits
 the darksun theme of the orignal forked source 
