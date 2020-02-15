@@ -11,6 +11,7 @@
 #+HTML_HEAD: <script type="text/javascript" src="https://aligua.github.io/org-html-theme-fruit-tree/export/styles/ft/js/jquery.scrollTo-1.4.3.1-min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="https://aligua.github.io/org-html-theme-fruit-tree/export/styles/ft/js/jquery.zclip.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="https://aligua.github.io/org-html-theme-fruit-tree/export/styles/ft/js/ft.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="https://aligua.github.io/org-html-theme-fruit-tree/export/styles/ft/js/hideshow-for-browser.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="https://aligua.github.io/org-html-theme-fruit-tree/export/styles/ft/js/hideshow.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="https://aligua.github.io/org-html-theme-fruit-tree/export/styles/lib/js/jquery.stickytableheaders.min.js"></script>
 
