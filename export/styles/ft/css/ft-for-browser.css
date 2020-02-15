@@ -7,6 +7,7 @@ h4:before {
     /* color:blue */
     /* margin-right: 6px; */
 }
-$(document).ready(function() {
-    hsCollapseAll();
-});
+
+/* $(document).ready(function() {
+ *     hsCollapseAll();
+ * }); */
