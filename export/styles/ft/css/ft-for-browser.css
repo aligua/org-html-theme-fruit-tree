@@ -1,9 +1,8 @@
 h4:before {
-    /* content: "\25cf "; */
-    content: "\1f518  ";
-    /* content: "\2b25  "; */
-    /* content: "\25cb  "; */
-    /* content: "\2B24  "; */
+    /* content: "\1f518  "; last favorite, circle*/
+    /* content: "\204e  "; star */
+    /* content: "\2217  "; star */
+    content: "\2731  ";    
 
     /* color:blue */
     /* margin-right: 6px; */
