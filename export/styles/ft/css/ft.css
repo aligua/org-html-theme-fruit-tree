@@ -11,7 +11,7 @@ a:visited {
     /* color: #b4b4b4 !important; */
 }
 body {
-    background-color: #fafafa !important;
+    background-color: #fbfbfb !important;
     color: #060606 !important;
     font-family: Libre Baskerville, serif;
     font-size: 16px;
@@ -177,7 +177,7 @@ h3 {
     /* https://www.sitepoint.com/community/t/underline-h1-tag/7012
      * border-bottom but that will inherit the width of the parent div. Is there a way to do this so the line will adjust to the width of the <h1> text? */
     display: inline-block;  /* when "box-sizing:border-box"  this inline-block need to put before border-bottom or box-shadow */
-    font-size: 25px;
+    font-size: 22px;
 
     box-sizing:border-box;
     /* border-bottom: 3px solid #B5DAF1; */
